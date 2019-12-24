@@ -118,7 +118,7 @@
 
 ##### 创建文本对象
 * `句柄对象 = text(x,y,z,'说明文字','属性名1',属性值1···)`   
-其中的说明文字除使用标准的ASCII字符外，还可使用[LaTeX](https://github.com/shancumt/Study/blob/master/Markdown/lshort-zh-cn.pdf  ’LaTex语法说明‘)格式的控制字符，这样可以在图形上添加希腊字母，数学符号即公式等内容
+其中的说明文字除使用标准的ASCII字符外，还可使用[LaTeX](https://raw.githubusercontent.com/shancumt/Study/master/Markdown/lshort-zh-cn.pdf  ’LaTex语法说明‘)格式的控制字符，这样可以在图形上添加希腊字母，数学符号即公式等内容
 ##### 属性
 * Color属性：定义文字对象的显示颜色
 * String属性：定义文字标注的内容，取值为字符串或字符串矩阵
