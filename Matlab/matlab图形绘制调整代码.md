@@ -27,6 +27,7 @@ set(gca,'looseInset',[0 0 0 0])
 set(gca,'FontName','Times New Roman','FontSize',7.5,'position',[0.10,0.6265,0.865,0.3])     %设置坐标轴字体大小，字型
 %*****设置坐标轴标签*****%
 h_xlabel = xlabel('\fontname{华文中宋}采样点','FontSize',7.5);
+h_xlabel = xlabel({'\fontname{华文中宋}采样点';'两行'},'FontSize',7.5);	%绘制两行标签
 h_ylabel = ylabel('\fontname{华文中宋}值','fontsize',7.5);
 %*******绘制箭头********%
 %**https://www.ilovematlab.cn/thread-328986-1-1.html**%
